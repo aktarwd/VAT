@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.7.1
+- https://www.phpmyadmin.net
+-
+- Host: sql6.freemysqlhosting.net
+- Generation Time: Sep 09, 2021 at 02:29 PM
+- Server version: 5.5.62-0ubuntu0.14.04.1
+- PHP Version: 7.0.33-0ubuntu0.16.04.16
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sql6434569" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="sample">
+                CREATE TABLE `sample` (
+                  `x` int(11) DEFAULT NULL,
+                  `y` int(11) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'sql6434569'
+    -->
+    <database name="sql6434569">
+        <!-- Table sample -->
+        <table name="sample">
+            <column name="x">1145</column>
+            <column name="y">2500</column>
+        </table>
+    </database>
+</pma_xml_export>

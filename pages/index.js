@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import sd-26x from '../aktarwd/VAT/aktarwd-patch-1/sd-26x.png'
+import sd-26x from '../
+aktarwd-patch-1/sd-26x.png'
 export default function Home() {
   return (
     <div className={styles.container}>

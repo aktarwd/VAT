@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Image from 'next/image'
+import sd-26x from '../
+aktarwd-patch-1/sd-26x.png'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -9,10 +11,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+    <h1>VATOFFICE</h1>
+      <Image
+        src={profilePic}
+        alt="Picture of the author"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // Optionally allows to add a blurred version of the image while loading
+        // placeholder="blur"
+      />
+      <p>Welcome !</p>
 
         <p className={styles.description}>
           Get started by editing{' '}

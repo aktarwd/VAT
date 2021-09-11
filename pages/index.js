@@ -6,7 +6,7 @@ function Home() {
     <>
       <h1>My Homepage</h1>
       <Image
-        src="/me.png"
+        src="/aktarwd/VAT/aktarw-patch-1/sd-26x.png"
         alt="Picture of the author"
         width={500}
         height={500}

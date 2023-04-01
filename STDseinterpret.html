@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>DSE INTERPRETAION</title>
+
+    
+<script>
+    function SendMessage( msg )
+    {
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() { HandleReply(httpRequest); };  
+        httpRequest.open("GET", "/message?msg=" + msg, true);
+        httpRequest.send(null);
+    }
+
+    function HandleReply( httpRequest )
+    {
+        if( httpRequest.readyState==4 ) 
+        {
+            if( httpRequest.status==200 ) txt.innerHTML = httpRequest.responseText;
+            else txt.innerHTML = "Error: " + httpRequest.status + " " +  httpRequest.responseText;
+        }
+    }
+</script>
+</head>
+
+
+<body>
+     <h1>DSE INERPRETATION</h1> 
+     
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <br><br>
+         <b>FILE UPLOAD:</b> <br>
+        Image<input type="file" name="Img" /> <br>
+        Sound<input type="file" name="Snd" /> <br>
+        <input type="submit" value="Submit" /> <br>
+    </form>
+  
+ <br>
+ <a href="https://www.amazon.com/clouddrive/share/oHtdGZUZHOuLpH7e5ed7GzK7wuQdbyl7QaJVVZYjFzC">Directory Listing</a>
+ <a href="https://cerebrospinal-bread.000webhostapp.com/AKTAR/function.html">Php Database</a>
+ <a href="https://cerebrospinal-bread.000webhostapp.com/AKTAR/phpreults.html">pdf Graphs </a>
+ <a href="https://supportindeed.com/phpMyAdmin/index.php?server=1&xck=587105580">PHP </a>
+ <br><br><br>
+
+ <input type="button" value="Send Message" onclick="SendMessage('AKTAR')">  AKTAR FREE CODE $$>>
+ <font id="txt" size="5"></font>
+<a href="http://www.gmail.com">GMAIL</a>
+<a href="ftp://127.0.0.1:2121/sdcard/DSE/aktar (3).csv"></a>
+<a href="https://cerebrospinal-bread.000webhostapp.com/AKTAR/csv.txt">download php</a>
+
+
+</body>
+</html>
